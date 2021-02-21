@@ -1,0 +1,17 @@
+{
+"companyName": "P4c3m",
+"productName": "Legless Shooter",
+"productVersion": "0.1",
+"dataUrl": "testbuild 2.data.unityweb",
+"wasmCodeUrl": "testbuild 2.wasm.code.unityweb",
+"wasmFrameworkUrl": "testbuild 2.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "testbuild 2.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.10f1"
+}
