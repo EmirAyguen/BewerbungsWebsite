@@ -1,0 +1,89 @@
+.content 
+{ border-color:dimgrey;
+  border-style:solid;
+  border-top-width:thin;
+}
+
+.header 
+{ border-color:lightblue;
+  border-style:solid;
+}
+
+.headerTitle 
+{ 
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 4em;
+}
+
+.contentText {
+    border-color: lightblue;
+    border-style: solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+.contentTitle {
+  border-color: white;
+  border-style: solid;
+  color: darkblue;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+}
+
+Div.Sourcecode {
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    padding: initial;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+.navi {
+    border-color: gray;
+    border-style: solid;
+}
+
+nav ul 
+{
+  display: flex;
+  flex-direction: row;
+}
+ nav a {
+      padding: 0.2em;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      color: black; 
+      background-color: lightblue; 
+      transition: all .15s ease-in;	  
+    }
+
+    nav a:focus,
+    nav a:hover,
+    nav li[aria-current] a:focus,
+    nav li[aria-current] a:hover {
+        color: white;
+        background-color: darkgreen;
+    }
+
+.naviElement 
+{
+  list-style: none;
+  margin:auto;
+  padding: 0;
+  font-size: 2em;
+}
+
+.footer 
+{ 
+  border-style:solid;
+  border-width:thin;
+}
+
+.footerText {
+    border-color: lightgreen;
+    border-style: solid;
+}
